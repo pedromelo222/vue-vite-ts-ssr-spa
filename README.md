@@ -1,39 +1,15 @@
-# test-ssr-spa
+# Vue 3 + Vite + TypeScript SPA with Server State Injection
 
-This template should help get you started developing with Vue 3 in Vite.
+A minimalist Vue 3 SPA template that leverages server-side capabilities for initial state injection while maintaining client-side rendering. Built with Vite and TypeScript for modern development experience.
 
-## Recommended IDE Setup
+## Key Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+🚀 Vue 3 + Vite + TypeScript setup
+💉 Server-side state injection without full SSR complexity
+🔄 Client-side rendering for optimal SPA experience
+🛠️ Express server with development and production modes
+🔥 Hot Module Replacement in development
 
-## Type Support for `.vue` Imports in TS
+### Why it was created
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-pnpm dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-pnpm build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
+Created for the purpose of handling multi-tenants on the server in a big Vue application without time to migrate to Nuxt

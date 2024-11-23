@@ -7,20 +7,12 @@ import router from './router'
 
 const app = createApp(App)
 
-// __INITIAL_STATE__
-declare global {
-  interface Window {
-    __INITIAL_STATE__?: {
-      serverTime: number;
-      tenant: string
-      other: string
-    }
-  }
-}
+
+console.log('here')
 
 const initialState = window.__INITIAL_STATE__
 if (initialState) {
-    console.log(initialState)
+  console.log(initialState)
 }
 
 app.use(createPinia())
